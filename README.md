@@ -2,23 +2,24 @@
 In this repositery, I took a Real-Estate land (in Saudi Arabia) Dataset, and I wrote a regression model that predicts the prices based on the land's attributes. I tried many algorithms, and below are the best ones that got the highest accuracy (lowest Mean-Absolute-Error):
 
 MAE: Mean-Absolute-Error
+
 RMSE: Root-Mean-Squared-Error
 
   - ExtraTreesRegressor <sub>MAE = 559 , RMSE = 3046</sub>
   
-ExtraTreesRegressor is a meta-estimator that fits a number of randomized decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
+      ExtraTreesRegressor is a meta-estimator that fits a number of randomized decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
 
   - Decision tree <sub>MAE = 652 , RMSE = 2565</sub>
   
-  Decision tree is a tree-like model of decisions and their possible consequences
+      Decision tree is a tree-like model of decisions and their possible consequences
 
   - Lasso <sub>MAE = 667 , RMSE = 2482</sub>
   
-    Lasso is a linear regression model that estimates sparse coefficients.
+      Lasso is a linear regression model that estimates sparse coefficients.
   
   - RandomForest <sub>MAE = 986 | RMSE = 2168</sub>
   
-Random forest is a commonly used machine learning algorithm that combines the output of multiple decision trees to reach a single result1. It is an ensemble method, meaning that a random forest model is made up of a large number of small decision trees, called estimators, which each produce their own predictions
+      Random forest is a commonly used machine learning algorithm that combines the output of multiple decision trees to reach a single result1. It is an ensemble method, meaning that a random forest model is made up of a large number of small decision trees, called estimators, which each produce their own predictions
 
 ## Dataset
 
@@ -26,8 +27,8 @@ Random forest is a commonly used machine learning algorithm that combines the ou
 The Dataset is about Real-Estate Land Prices in Saudi Arabia.
 
 ### Dataset Description
--Number of features: 8 Features/Columns
--Number of Rows: 2951 Row
+- Number of features: 8 Features/Columns
+- Number of Rows: 2951 Row
 
 ### Features/Columns Details:
 
