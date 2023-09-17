@@ -9,12 +9,15 @@ RMSE: Root-Mean-Squared-Error
 ExtraTreesRegressor is a meta-estimator that fits a number of randomized decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
 
   - Decision tree <sub>MAE = 652 , RMSE = 2565</sub>
-    Decision tree is a tree-like model of decisions and their possible consequences
+  
+  Decision tree is a tree-like model of decisions and their possible consequences
 
   - Lasso <sub>MAE = 667 , RMSE = 2482</sub>
+  
     Lasso is a linear regression model that estimates sparse coefficients.
   
   - RandomForest <sub>MAE = 986 | RMSE = 2168</sub>
+  
 Random forest is a commonly used machine learning algorithm that combines the output of multiple decision trees to reach a single result1. It is an ensemble method, meaning that a random forest model is made up of a large number of small decision trees, called estimators, which each produce their own predictions
 
 ## Dataset
