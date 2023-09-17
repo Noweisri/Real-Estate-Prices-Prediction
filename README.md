@@ -13,13 +13,13 @@ RMSE: Root-Mean-Squared-Error
   - Lasso <sub>MAE = 667 , RMSE = 2482</sub>
     Lasso is a linear regression model that estimates sparse coefficients.
   
-  - RandomForest | MAE = 986 | RMSE = 2168
-      Random forest is a commonly used machine learning algorithm that combines the output of multiple decision trees to reach a single result1. It is an ensemble method, meaning that a random forest model is made up of a large number of small decision trees, called estimators, which each produce their own predictions
+  - RandomForest <sub>MAE = 986 | RMSE = 2168</sub>
+Random forest is a commonly used machine learning algorithm that combines the output of multiple decision trees to reach a single result1. It is an ensemble method, meaning that a random forest model is made up of a large number of small decision trees, called estimators, which each produce their own predictions
 
 ## Dataset
 
 ### About the dataset
-    The Dataset is about Real-Estate Land Prices in Saudi Arabia.
+The Dataset is about Real-Estate Land Prices in Saudi Arabia.
 
 ### Dataset Description
 -Number of features: 8 Features/Columns
