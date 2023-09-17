@@ -5,7 +5,8 @@ MAE: Mean-Absolute-Error
 RMSE: Root-Mean-Squared-Error
 
   - ExtraTreesRegressor <sub>MAE = 559 , RMSE = 3046</sub>
-      ExtraTreesRegressor is a meta-estimator that fits a number of randomized decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
+  
+ExtraTreesRegressor is a meta-estimator that fits a number of randomized decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
 
   - Decision tree <sub>MAE = 652 , RMSE = 2565</sub>
     Decision tree is a tree-like model of decisions and their possible consequences
