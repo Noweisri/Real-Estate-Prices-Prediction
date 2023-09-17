@@ -18,14 +18,14 @@ RMSE: Root-Mean-Squared-Error
 
 ## Dataset
 
-###About the dataset
+### About the dataset
     The Dataset is about Real-Estate Land Prices in Saudi Arabia.
 
-###Dataset Description
+### Dataset Description
 -Number of features: 8 Features/Columns
 -Number of Rows: 2951 Row
 
-###Features/Columns Details:
+### Features/Columns Details:
 
 | mainlocation | The main location of the land |
 | sublocation | Indicates the subregion of the location |
@@ -36,11 +36,11 @@ RMSE: Root-Mean-Squared-Error
 | size | The size of the land in meters squared |
 | Pricepm | The price per meter squared |
 
-###Cleaning the data
+### Cleaning the data
 - Any alphabetical attributes were converted to numerical values (either binary values for Riyadh/Jeddah or range values 0…x) to work properly for any algorithm.
 - The neighborhood column was converted using One-Hot Encoding, while other columns were converted manually.
 - The dataset is split into two sets, the train set with 80% / 384 and the test set with 20% / 96, with random state = 93.
 
 finally thanks to HUSSAIN ALQATARI for offering the dataset
 
-###Link to the dataset: [Click here](https://www.kaggle.com/code/hussainalqatari/land-market-scraper/notebook)
+### Link to the dataset: [Click here](https://www.kaggle.com/code/hussainalqatari/land-market-scraper/notebook)
