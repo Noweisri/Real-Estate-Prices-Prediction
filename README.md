@@ -32,6 +32,8 @@ The Dataset is about Real-Estate Land Prices in Saudi Arabia.
 
 ### Features/Columns Details:
 
+| Column  | Description |
+| --- | --- |
 | mainlocation | The main location of the land |
 | sublocation | Indicates the subregion of the location |
 | neighborhood | The neighborhood where the land resides |
